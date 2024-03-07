@@ -1,0 +1,84 @@
+.equipe {
+  display: flex;
+  flex-direction: column;
+  padding: 0 5rem;
+  gap: 2rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+
+  background-color: var(--red-500);
+  padding: 2rem;
+
+  border-radius: 2rem;
+
+  font-weight: bold;
+  font-size: 32px;
+
+  gap: 2rem;
+}
+
+.time {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.img {
+  width: 65%;
+}
+
+.member {
+  font-weight: normal;
+  font-size: 20px;
+  color: var(--red-700);
+  text-align: justify;
+}
+
+.funcao {
+  font-weight: normal;
+  font-size: 16px;
+  color: white;
+  text-align: justify;
+  margin-bottom: 0.9rem;
+}
+
+.parceiros {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  gap: 2rem;
+}
+
+.parceiro{
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.imgP {
+  max-width: 30%;
+}
+
+.member {
+  font-weight: 600;
+  font-size: 20px;
+  color: var(--red-700);
+  text-align: justify;
+}
+.desc {
+  font-weight: normal;
+  font-size: 16px;
+  color: white;
+  text-align: justify;
+  margin-bottom: 0.9rem;
+}

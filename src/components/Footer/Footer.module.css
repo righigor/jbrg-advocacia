@@ -1,0 +1,46 @@
+.container {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  height: 106px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+
+  background-color: var(--red-700);
+}
+
+.logo {
+  max-height: 50px;
+}
+
+.logoContainer {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-left: 75px;
+}
+
+.logoContainer a {
+  width: 20px;
+}
+
+.contactContainer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 0.3rem;
+
+  color: white;
+  font-size: 12px;
+}
+
+.direitos {
+  background-color: var(--red-700);
+  text-align: center;
+  color: white;
+  padding-bottom: 0.7rem;
+  font-size: 10px;
+}

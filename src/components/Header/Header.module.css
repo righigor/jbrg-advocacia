@@ -1,0 +1,43 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 96px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+
+  background-color: var(--red-700);
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; 
+}
+
+.logo {
+  max-height: 70px;
+}
+
+.navContainer {
+  display: flex;
+  color: white;
+  gap: 2rem;
+}
+
+.numContainer {
+  display: flex;
+  gap: 0.6rem;
+
+  color: white;
+
+  background-color: var(--red-500);
+
+  padding: 0.5rem;
+  border-radius: 10px;
+}
+
+.numContainer a {
+  color: white;
+  text-decoration: none;
+}

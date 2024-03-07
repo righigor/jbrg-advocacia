@@ -1,0 +1,48 @@
+.container {
+  display: flex;
+  padding: 5rem;
+  margin-top: 2rem;
+
+  gap: 12rem;
+}
+
+.perfil {
+  width: 50%;
+  height: 70vh;
+
+  border-radius: 2rem;
+}
+
+.aboutContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.aboutContainer h2 {
+  text-align: center;
+  color: var(--red-700);
+
+  font-weight: 10rem;
+}
+
+.aboutContainer p {
+  text-align: justify;
+  color: var(--red-500);
+  font-size: 1rem;
+
+  z-index: 2;
+}
+
+.logo {
+  position: absolute;
+  bottom: -550px;
+  right: 70px;
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  transform: rotate(20deg);
+
+  z-index: 1;
+
+}
