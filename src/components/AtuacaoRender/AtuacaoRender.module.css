@@ -1,0 +1,39 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1rem;
+}
+
+.itemContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  display: flex;
+  justify-content: flex-start;
+  text-align: center;
+  align-items: center;
+  font-weight: bold;
+
+  gap: 0.5rem;
+  color: var(--red-700);
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+.description {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+  color: var(--red-500);
+  text-align: justify;
+  width: 80%;
+}
+
+.description.active {
+  max-height: 100%;
+  max-width: 80%;
+  color: var(--red-500);
+  text-align: justify;
+}

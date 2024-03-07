@@ -1,0 +1,11 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+
+  background-color: var(--red-700);
+  height: 100px;
+
+  color: white;
+}

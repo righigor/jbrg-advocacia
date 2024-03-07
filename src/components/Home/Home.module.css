@@ -1,0 +1,21 @@
+.container {
+  margin-top: 96px;
+  padding-bottom: -96px;
+  height: 85vh;
+  background-color: var(--red-700);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.logo {
+  margin-top: -142px;
+  /* width: 60%; */
+  max-height: 360px;
+}
+
+.palavras {
+  color: white;
+}
