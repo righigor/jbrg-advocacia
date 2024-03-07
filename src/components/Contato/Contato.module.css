@@ -1,0 +1,67 @@
+.contato {
+    display: flex;
+    flex-direction: column;
+
+    height: 100vh;
+
+    padding: 5rem;
+
+    margin-bottom: 5rem;
+}
+
+.contato h1 {
+  color: var(--red-700);
+  margin-bottom: 4rem;
+}
+
+.contentContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    gap: 2rem;
+}
+
+.leftContent {
+    width: 50%;
+
+    gap: 2rem;
+}
+
+.detalhes {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  text-align: center;
+  /* align-items: center; */
+  margin-bottom: 2rem;
+
+  /* height: 150px; */
+}
+
+.expansao {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  color: var(--red-500);
+}
+
+.divisoria {
+  border-left: 1px solid var(--red-700);
+}
+
+.mapa {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  /* border: 1px solid var(--red-700); */
+  border-radius: 2rem;
+}
+
+.formContainer {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+
+}
