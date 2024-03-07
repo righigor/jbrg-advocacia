@@ -18,7 +18,7 @@ function EmailContactForm() {
     e.preventDefault();
 
     try {
-      const response = await fetch('https://formspree.io/f/xayrqpke', {
+      const response = await fetch('https://formspree.io/f/mgegzaky', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
