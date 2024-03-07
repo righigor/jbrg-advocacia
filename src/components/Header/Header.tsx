@@ -14,7 +14,9 @@ function Header() {
       </div>
       <div className={ style.numContainer }>
         <img src={ wpp } alt="" />
-        <span>(31) 3561 - 2662</span>
+        <a href="https://api.whatsapp.com/send?phone=553135612662" target="_blank" rel="noopener noreferrer">
+          <span>(31) 3561 - 2662</span>
+        </a>
       </div>
     </header>
   );

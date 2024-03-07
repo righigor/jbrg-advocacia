@@ -13,8 +13,6 @@
   left: 0;
   width: 100%;
   z-index: 1000; 
-
-  opacity: 0.95;
 }
 
 .logo {
@@ -37,4 +35,9 @@
 
   padding: 0.5rem;
   border-radius: 10px;
+}
+
+.numContainer a {
+  color: white;
+  text-decoration: none;
 }
