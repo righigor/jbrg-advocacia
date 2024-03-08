@@ -21,7 +21,7 @@ function Equipe() {
           </div>
 
           <div className={ style.container }>
-            <h3 className={ style.title }>Nossos Parceiro</h3>
+            <h3 className={ style.title }>Nossos Parceiros</h3>
             <div className={ style.parceiros }>
               <div className={ style.parceiro }>
                 <img src="https://www.jasa.adv.br/wp-content/uploads/2021/10/JAS000121_Marca_JASA_2021_RGB_2767-C-1024x387.png" alt="" className={ style.imgP } />

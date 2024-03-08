@@ -10,12 +10,13 @@ function Contato() {
         <div className={ style.leftContent }>
           <div className={ style.detalhes }>
             <div className={ style.expansao }>
-              <div>Agende reunião presencial ou online</div>
+              <div>Agende uma reunião presencial ou online</div>
               <div>(31) 3561 - 2662</div>
             </div>
             <div className={ style.divisoria } />
             <div className={ style.expansao } >
               <div>Endereço</div>
+              <div />
               <div>Av. Queiroz Junior, 77 - Sala 203, Centro, Itabirito, MG</div>
             </div>
           </div>

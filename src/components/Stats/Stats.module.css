@@ -9,3 +9,12 @@
 
   color: white;
 }
+
+@media screen and (max-width: 768px) {
+  .container {
+    gap: 2rem;
+    padding-left: 20%;
+    padding-right: 20%;
+    font-size: 10px;
+  }
+}
