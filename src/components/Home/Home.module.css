@@ -19,3 +19,16 @@
 .palavras {
   color: white;
 }
+
+@media screen and (max-width: 768px) {
+  .logo {
+    margin-top: -100px;
+    width: 80%;
+  }
+
+  .palavras {
+    font-size: 0.8rem;
+    text-align: center;
+  }
+  
+}

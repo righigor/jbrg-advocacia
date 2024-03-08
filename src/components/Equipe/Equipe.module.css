@@ -33,13 +33,6 @@
   width: 65%;
 }
 
-.member {
-  font-weight: normal;
-  font-size: 20px;
-  color: var(--red-700);
-  text-align: justify;
-}
-
 .funcao {
   font-weight: normal;
   font-size: 16px;
@@ -81,4 +74,51 @@
   color: white;
   text-align: justify;
   margin-bottom: 0.9rem;
+}
+
+@media screen and (max-width: 768px) {
+  .equipe {
+    padding: 0 2rem;
+  }
+
+  .title {
+    font-size: 1.5rem;
+  }
+
+  .time {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .img {
+    width: 110%;
+  }
+
+  .member {
+    font-size: 15px;
+  }
+
+  .funcao {
+    font-size: 12px;
+  }
+
+  .parceiros {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+  .parceiro {
+    width: 80%;
+    gap: 0.5rem;
+  }
+
+  .imgP {
+    max-width: 50%;
+  }
+
+  .desc {
+    font-size: 12px;
+    text-align: center;
+  }
+
 }

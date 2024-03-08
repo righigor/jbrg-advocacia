@@ -1,10 +1,10 @@
-.container {
+.headerContainer {
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 96px;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
 
   background-color: var(--red-700);
 
@@ -16,28 +16,15 @@
 }
 
 .logo {
-  max-height: 70px;
+  max-height: 50px;
 }
 
-.navContainer {
-  display: flex;
-  color: white;
-  gap: 2rem;
-}
-
-.numContainer {
-  display: flex;
-  gap: 0.6rem;
-
-  color: white;
-
-  background-color: var(--red-500);
-
-  padding: 0.5rem;
-  border-radius: 10px;
-}
-
-.numContainer a {
-  color: white;
-  text-decoration: none;
+@media only screen and (max-width: 600px) {
+  .headerContainer {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: first baseline;
+    height: 96px;
+  }
 }
