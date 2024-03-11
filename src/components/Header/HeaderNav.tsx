@@ -7,7 +7,7 @@ function HeaderNav() {
   const smoothScroll = (target: string, duration: number) => {
     const targetElement = document.querySelector(target);
     if (!targetElement) return;
-    const offset = 70;
+    const offset = 80;
     const startPosition = window.scrollY;
     const targetPosition = targetElement.getBoundingClientRect().top + window.scrollY - offset;
     const distance = targetPosition - startPosition;

@@ -71,3 +71,10 @@
   color: #666;
   cursor: not-allowed;
 }
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 90%;
+  }
+  
+}
