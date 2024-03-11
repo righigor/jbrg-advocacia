@@ -35,7 +35,9 @@ function Footer() {
           <div>Ligue ou WhatsApp</div>
         </div>
       </div>
-      <div className={ style.direitos }>© Todos direitos reservados.</div>
+      <div className={ style.direitos }>
+        ©Todos direitos reservados.
+      </div>
     </div>
   )
 }

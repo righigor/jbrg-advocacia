@@ -44,3 +44,15 @@
   padding-bottom: 0.7rem;
   font-size: 10px;
 }
+
+@media screen and (max-width: 768px) {
+  .container {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+  
+    height: 10rem;
+  }
+}

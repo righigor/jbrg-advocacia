@@ -36,7 +36,7 @@
 
 .logo {
   position: absolute;
-  bottom: -550px;
+  bottom: 55px;
   right: 70px;
   width: 180px;
   height: 180px;
@@ -70,7 +70,7 @@
   }
 
   .logo {
-    bottom: -715px;
+    bottom: -15px;
     right: 20px;
     width: 60px;
     height: 60px;

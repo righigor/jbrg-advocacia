@@ -21,6 +21,11 @@
 }
 
 @media screen and (max-width: 768px) {
+  .container {
+    right: 0;
+    padding-bottom: -64px;
+  }
+
   .logo {
     margin-top: -100px;
     width: 80%;

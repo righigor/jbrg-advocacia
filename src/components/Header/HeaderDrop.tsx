@@ -53,6 +53,11 @@ function HeaderDrop() {
               <span>Contato</span>
             </a>
             <div className={ style.linkbottom } />
+            <div className={ style.numContainer }>
+              <a href="https://api.whatsapp.com/send?phone=553135612662" target="_blank" rel="noopener noreferrer">
+                <span>(31) 3561-2662</span>
+              </a>
+            </div>
           </div>
         </div>
       </div>

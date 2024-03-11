@@ -62,3 +62,28 @@
   justify-content: flex-end;
 
 }
+
+@media screen and (max-width: 768px) {
+  .contato {
+    padding: 2rem;
+    margin-bottom: 35rem;
+  }
+  .contentContainer {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .leftContent {
+    width: 100%;
+  }
+
+  .formContainer {
+    width: 100%;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+
+  .footer {
+    width: 100%;
+  }
+
+}
