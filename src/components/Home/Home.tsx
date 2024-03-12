@@ -7,7 +7,7 @@ function Home() {
   return (
     <div className={ style.container }>
       <img src={ logo } alt="" className={ style.logo }/>
-      <p className={ style.palavras }>COMPETÊNCIA | HONESTIDADE | SEGURANÇA | COMPROMISSO E RESULTADO</p>
+      <p className={ style.palavras }>COMPETÊNCIA • HONESTIDADE • SEGURANÇA • COMPROMISSO E RESULTADO</p>
     </div>
   );
 }

@@ -18,7 +18,7 @@ function Equipe() {
                   <div className={ style.member }>Adenir De Paulo Machado</div>
                   <div className={ style.funcao }>Advogado Associado</div>
                   <div className={ style.member }>Cleidiane Vaz de Carvalho</div>
-                  <div className={ style.funcao }>Secretária</div>
+                  <div className={ style.funcao }>Secretária/Bacharela</div>
                 </div>
               </div>
             </div>
