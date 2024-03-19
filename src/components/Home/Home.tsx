@@ -1,6 +1,6 @@
 import style from './Home.module.css';
 
-import logo from '../../assets/logomarca/logo-dark.jpeg';
+import logo from '../../assets/imgs/capa1.png';
 
 
 function Home() {

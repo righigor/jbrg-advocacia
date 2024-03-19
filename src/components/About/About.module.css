@@ -16,7 +16,7 @@
 .aboutContainer {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 1.5rem;
 }
 
 .aboutContainer h2 {
@@ -38,8 +38,8 @@
   position: absolute;
   bottom: 55px;
   right: 70px;
-  width: 180px;
-  height: 180px;
+  width: 150px;
+  height: 150px;
   object-fit: cover;
   transform: rotate(20deg);
 

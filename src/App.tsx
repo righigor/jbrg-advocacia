@@ -7,6 +7,13 @@ import Home from "./components/Home/Home"
 import Stats from "./components/Stats/Stats"
 
 function App() {
+  console.log(`
+  Devoloped by: Igor Righi
+  
+  Get in touch:  
+    LinkedIn: https://www.linkedin.com/in/igor-righi/
+    GitHub: https://github.com/righigor
+    Email: righigordev@gmail.com`)
   return (
     <>
       <Header />
