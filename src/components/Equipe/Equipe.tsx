@@ -1,6 +1,7 @@
 import style from './Equipe.module.css';
 
-import equipe from '../../assets/imgs/equipe.svg';
+import equipe from '../../assets/imgs/equipe.jpg';
+import elaine from '../../assets/imgs/image3.png';
 
 function Equipe() {
     return (
@@ -31,11 +32,11 @@ function Equipe() {
                 <div className={ style.parceiro }>
                   <img src="https://www.jasa.adv.br/wp-content/uploads/2021/10/JAS000121_Marca_JASA_2021_RGB_2767-C-1024x387.png" alt="" className={ style.imgP } />
                   <div className={ style.member }>RITA</div>
-                  <div className={ style.desc }>Direito do Trânsito</div>
+                  <div className={ style.desc }>Direito do Trabalho</div>
                 </div>
                 <div className={ style.parceiro }>
-                <img src="https://www.jasa.adv.br/wp-content/uploads/2021/10/JAS000121_Marca_JASA_2021_RGB_2767-C-1024x387.png" alt="" className={ style.imgP } />
-                  <div className={ style.member }>ELAINE</div>
+                <img src={ elaine } alt="" className={ style.imgP } />
+                  <div className={ style.member }>Drª. Elaine Antunes</div>
                   <div className={ style.desc }>Direito do Trânsito e Direito da Saúde</div>
                 </div>
                 <div className={ style.parceiro }>

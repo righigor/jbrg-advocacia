@@ -3,11 +3,13 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Montserrat', sans-serif;
+
+  scrollbar-color: var(--red-500) var(--red-700);
 }
 
 :root {
   --red-200: #f8b195;
-  --red-500: #d55f5f;
+  --red-500: #ac3232;
   --red-700: #7b1c24;
 
   --blue-200: #83c1c8;
