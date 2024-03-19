@@ -1,7 +1,8 @@
 .container {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  gap: 1rem;
+  gap: 2rem;
+  padding-left: 4rem;
 }
 
 .itemContainer {
@@ -46,19 +47,18 @@
     justify-content: center;
 
     text-align: center;
+
+    padding-left: 0;
   }
 
   .description {
     padding-left: 10%;
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.5s ease;
-    width: 90%;
+    width: 100%;
   }
 
   .description.active {
     max-height: 100%;
-    max-width: 90%;
+    max-width: 100%;
     
   }
 }

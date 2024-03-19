@@ -29,11 +29,11 @@ function Equipe() {
             <div className={ style.container }>
               <h3 className={ style.title }>Nossos Parceiros</h3>
               <div className={ style.parceiros }>
-                <div className={ style.parceiro }>
+                {/* <div className={ style.parceiro }>
                   <img src="https://www.jasa.adv.br/wp-content/uploads/2021/10/JAS000121_Marca_JASA_2021_RGB_2767-C-1024x387.png" alt="" className={ style.imgP } />
                   <div className={ style.member }>RITA</div>
                   <div className={ style.desc }>Direito do Trabalho</div>
-                </div>
+                </div> */}
                 <div className={ style.parceiro }>
                 <img src={ elaine } alt="" className={ style.imgP } />
                   <div className={ style.member }>Drª. Elaine Antunes</div>

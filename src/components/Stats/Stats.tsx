@@ -3,17 +3,10 @@ import style from './Stats.module.css';
 function Stats() {
   return (
     <div className={ style.container }>
-      <div>
-        <h4>X+</h4>
-        <span>ANOS DE EXPERIÊNCIA</span>
-      </div>
-      <div>
-        <h4>X+</h4>
-        <span>CLIENTES SATISFEITOS</span>
-      </div>
-      <div>
-        <h4>X+</h4>
-        <span>PROCESSOS FINALIZADOS</span>
+      <div className={ style.divText }>
+        <p className={ style.text }>
+          COMPETÊNCIA • HONESTIDADE • SEGURANÇA • COMPROMISSO E RESULTADO
+        </p>
       </div>
     </div>
   );
