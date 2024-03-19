@@ -10,11 +10,36 @@
   color: white;
 }
 
+.divText {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  overflow: hidden;
+  background-color: '#fff';
+  position: relative;
+}
+
+.text {
+  display: inline-block;
+  /* width: 100%; */
+  /* animation: marquee 5s linear infinite; */
+}
+
+@keyframes marquee {
+  0%   { transform: translate(0, 0); }
+  100% { transform: translate(-100%, 0); }
+}
+
 @media screen and (max-width: 768px) {
   .container {
     gap: 2rem;
     padding-left: 20%;
     padding-right: 20%;
     font-size: 10px;
+  }
+
+  .text {
+    text-align: center;
   }
 }

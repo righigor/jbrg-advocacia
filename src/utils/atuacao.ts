@@ -26,18 +26,18 @@ export const atuacao: AtuacaoType[] = [
   },
   {
     title: 'Direito Administrativo',
-    desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus accusamus reprehenderit aliquam omnis suscipit odio id cumque sunt sit mollitia tempora, assumenda, deserunt, voluptates doloribus iure illum sapiente autem tenetur?'
+    desc: 'O advogado sócio titular do nosso escritório, Dr. João Batista dos Reis Gonçalves, é pós-graduado em Direito Público pela Universidade Gama Filho, com especialização em Direito Público com ênfase em Direito Administrativo. Sua vasta experiência tanto na advocacia privada quanto em diversos órgãos públicos dos três poderes, qualifica seu trabalho e possibilita a oferta de uma prestação de serviço integral, quando o assunto é a Administração Pública.'
   },
   {
-    title: 'Direito de Trânsito',
-    desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus accusamus reprehenderit aliquam omnis suscipit odio id cumque sunt sit mollitia tempora, assumenda, deserunt, voluptates doloribus iure illum sapiente autem tenetur?'
+    title: 'Direito de Trânsito e da Saúde',
+    desc: 'Como uma de nossas parcerias de sucesso, trabalhamos alinhados com a Dra. Elaine Antunes, que se especializou em dois ramos do direito que estão presentes no nosso dia-a-dia, o que lhe confere condições para atuar de forma célere e eficiente. Através de nossa parceria temos obtido excelentes resultados em processos administrativos sobre trânsito. É também o caso de questões envolvendo cuidados ou direitos violados sobre a saúde, com ênfase no atendimento de pessoas identificadas com o TEA (Autismo), oferecendo maior segurança e atenção personalizada.'
   },
   {
     title: 'Direito Empresarial',
-    desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus accusamus reprehenderit aliquam omnis suscipit odio id cumque sunt sit mollitia tempora, assumenda, deserunt, voluptates doloribus iure illum sapiente autem tenetur?'
+    desc: 'As empresas necessitam de um suporte diário para facilitar seu funcionamento, não incorrendo em ilegalidades, através de uma orientação plena, bem assim, minimizando impactos caso se tenha cometido algum equívoco, ou esteja sofrendo uma abordagem danosa, ainda que potencial. Oferecemos variados modelos de consultoria empresarial, adaptando à realidade e ao porte de cada empresa.'
   },
   {
     title: 'Planejamento Sucessório e Inventário',
-    desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus accusamus reprehenderit aliquam omnis suscipit odio id cumque sunt sit mollitia tempora, assumenda, deserunt, voluptates doloribus iure illum sapiente autem tenetur?'
+    desc: 'Nossa cultura ocidental reproduz uma certa aversão ao inevitável. Nossa única certeza absoluta é que um dia todos terminaremos nossa trajetória no plano terreno. Somente esse motivo já deveria ser suficientemente motivador para pensar e planejar a melhor destinação do patrimônio conquistado. Nossa equipe tem experiência em orientação visando o Planejamento Sucessório, definindo estratégias, ferramentas jurídicas, contratos, entre outros meios, entregando uma transição mais tranquila e econômica entre gerações. Ainda que se cuide do planejamento post mortem, o procedimento denominado Inventário é preciso ser realizado, na maioria das vezes. Esse conjunto de providências que regularize a transmissão da herança, requer cuidados e conhecimento para não se tornar algo demorado demais e demasiadamente oneroso.'
   },
 ]
