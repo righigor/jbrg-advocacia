@@ -16,3 +16,15 @@
   right: 10px;
   cursor: pointer;
 }
+
+@media screen and (max-width: 768px) {
+  .popup {
+    height: 50vh;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .popup {
+    height: 40vh;
+  }
+}
