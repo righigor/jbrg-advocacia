@@ -1,5 +1,5 @@
 import About from "./components/About/About"
-import Alert from "./components/Alert/Alert"
+// import Alert from "./components/Alert/Alert"
 import Atuacao from "./components/Atuacao/Atuacao"
 import Contato from "./components/Contato/Contato"
 import Equipe from "./components/Equipe/Equipe"
@@ -39,7 +39,7 @@ function App() {
       <div id="contato">
         <Contato />
       </div>
-      <Alert />
+      {/* <Alert /> */}
     </>
   )
 }
